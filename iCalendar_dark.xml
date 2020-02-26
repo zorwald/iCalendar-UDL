@@ -1,0 +1,64 @@
+<NotepadPlus>
+    <UserLang name="iCalendar (dark)" ext="ical ics ifb icalendar" udlVersion="2.1">
+        <Settings>
+            <Global caseIgnored="yes" allowFoldOfComments="no" foldCompact="no" forcePureLC="0" decimalSeparator="0" />
+            <Prefix Keywords1="no" Keywords2="no" Keywords3="no" Keywords4="no" Keywords5="no" Keywords6="no" Keywords7="no" Keywords8="no" />
+        </Settings>
+        <KeywordLists>
+            <Keywords name="Comments">03/* 04*/ 00// 01 02</Keywords>
+            <Keywords name="Numbers, prefix1"></Keywords>
+            <Keywords name="Numbers, prefix2"></Keywords>
+            <Keywords name="Numbers, extras1"></Keywords>
+            <Keywords name="Numbers, extras2"></Keywords>
+            <Keywords name="Numbers, suffix1"></Keywords>
+            <Keywords name="Numbers, suffix2"></Keywords>
+            <Keywords name="Numbers, range"></Keywords>
+            <Keywords name="Operators1">&apos; ! &quot; % &amp; ( ) , . : ; [ ] ` { | } + &lt; = &gt;</Keywords>
+            <Keywords name="Operators2"></Keywords>
+            <Keywords name="Folders in code1, open">BEGIN:VCALENDAR BEGIN:VEVENT BEGIN:VTODO BEGIN:VJOURNAL BEGIN:VFREEBUSY BEGIN:VTIMEZONE BEGIN:VALARM BEGIN: DAYLIGHT BEGIN:STANDARD</Keywords>
+            <Keywords name="Folders in code1, middle"></Keywords>
+            <Keywords name="Folders in code1, close">END:VCALENDAR END:VEVENT END:VTODO END:VJOURNAL END:VFREEBUSY END:VTIMEZONE END:VALARM END:DAYLIGHT END:STANDARD</Keywords>
+            <Keywords name="Folders in code2, open"></Keywords>
+            <Keywords name="Folders in code2, middle"></Keywords>
+            <Keywords name="Folders in code2, close"></Keywords>
+            <Keywords name="Folders in comment, open"></Keywords>
+            <Keywords name="Folders in comment, middle"></Keywords>
+            <Keywords name="Folders in comment, close"></Keywords>
+            <Keywords name="Keywords1">CALSCALE METHOD PRODID VERSION ATTACH CATEGORIES CLASS COMMENT DESCRIPTION GEO LOCATION PERCENT-COMPLETE PRIORITY RESOURCES STATUS SUMMARY COMPLETED DTEND DUE DTSTART DURATION FREEBUSY TRANSP TZID TZNAME TZOFFSETFROM TZOFFSETTO TZURL ATTENDEE CONTACT ORGANIZER RECURRENCE-ID RELATED-TO URL UID EXDATE EXRULE RDATE RRULE ACTION REPEAT TRIGGER CREATED DTSTAMP LAST-MODIFIED SEQUENCE REQUEST-STATUS X-TITLE X-APPLE-STRUCTURED-LOCATION X-ADDRESS X-APPLE-RADIUS X-APPLE-REFERENCEFRAME X-CALENDARSERVER-DTSTAMP X-APPLE-MAPKIT-HANDLE X-APPLE-ABUID X-LIC-LOCATION X-WR-CALNAME X-APPLE-CALENDAR-COLOR</Keywords>
+            <Keywords name="Keywords2">ALTREP CN CUTYPE DELEGATED-FROM DELEGATED-TO DIR ENCODING FMTTYPE FBTYPE LANGUAGE MEMBER PARTSTAT RANGE RELATED RELTYPE ROLE RSVP SENT-BY TZID VALUE AUDIO DISPLAY EMAIL PROCEDURE SCHEDULE-STATUS FREQ UNTIL</Keywords>
+            <Keywords name="Keywords3">INDIVIDUAL GROUP RESOURCE ROOM UNKNOWN FREE BUSY BUSY-UNAVAILABLE BUSY-TENTATIVE NEEDS-ACTION ACCEPTED DECLINED TENTATIVE DELEGATED IN-PROCESS CHILD PARENT SIBLING CHAIR REQ-PARTICIPANT OPT-PARTICIPANT NON-PARTICIPANT PUBLIC PRIVATE CONFIDENTIAL CONFIRMED CANCELLED DRAFT FINAL</Keywords>
+            <Keywords name="Keywords4">BINARY BOOLEAN CAL-ADDRESS DATE DATE-TIME DURATION FLOAT INTEGER PERIOD RECUR TEXT TIME URI UTC-OFFSET TRUE YEARLY BYMONTH BYDAY CET CEST CEMT</Keywords>
+            <Keywords name="Keywords5"></Keywords>
+            <Keywords name="Keywords6"></Keywords>
+            <Keywords name="Keywords7"></Keywords>
+            <Keywords name="Keywords8"></Keywords>
+            <Keywords name="Delimiters">00 01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20 21 22 23</Keywords>
+        </KeywordLists>
+        <Styles>
+            <WordsStyle name="DEFAULT" fgColor="FFFFFF" bgColor="000000" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="COMMENTS" fgColor="008040" bgColor="000000" fontName="0" fontStyle="2" nesting="0" />
+            <WordsStyle name="LINE COMMENTS" fgColor="008040" bgColor="000000" fontName="0" fontStyle="2" nesting="0" />
+            <WordsStyle name="NUMBERS" fgColor="FFFFFF" bgColor="000000" fontName="yes" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS1" fgColor="FF0080" bgColor="000000" fontName="0" fontStyle="1" nesting="0" />
+            <WordsStyle name="KEYWORDS2" fgColor="FF00FF" bgColor="000000" fontName="yes" fontStyle="2" nesting="0" />
+            <WordsStyle name="KEYWORDS3" fgColor="FF8000" bgColor="000000" fontName="no" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS4" fgColor="FF8000" bgColor="000000" fontName="&#x0E48;&#x0A3F;&#x0011;" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS5" fgColor="00A8F9" bgColor="000000" fontName="no" fontStyle="1" nesting="0" />
+            <WordsStyle name="KEYWORDS6" fgColor="000000" bgColor="FFFFFF" fontName="1" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS7" fgColor="000000" bgColor="FFFFFF" fontName="&#x1190;&#x0A3F;&#x9128;&#x0A47;&#x8EA8;&#x0A46;" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS8" fgColor="000000" bgColor="FFFFFF" fontName="&#xA538;&#x0A3A;&#xA000;" fontStyle="0" nesting="0" />
+            <WordsStyle name="OPERATORS" fgColor="0080FF" bgColor="161616" fontName="no" fontStyle="1" nesting="0" />
+            <WordsStyle name="FOLDER IN CODE1" fgColor="15B4FF" bgColor="000000" fontName="&#xA600;&#x0A3A;" fontStyle="1" nesting="0" />
+            <WordsStyle name="FOLDER IN CODE2" fgColor="000000" bgColor="FFFFFF" fontName="no" fontStyle="0" nesting="0" />
+            <WordsStyle name="FOLDER IN COMMENT" fgColor="000000" bgColor="FFFFFF" fontName="MISC" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS1" fgColor="D700D7" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS2" fgColor="800080" bgColor="FFFFFF" fontName="&#xEC36;&#x60D0;&#x0005;" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS3" fgColor="000000" bgColor="FFFFFF" fontName="&#xEC36;&#x60D0;&#x0005;" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS4" fgColor="000000" bgColor="FFFFFF" fontName="&#x000F;" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS5" fgColor="000000" bgColor="FFFFFF" fontName="&#xA448;&#x02F6;&#x6378;&#x0A67;&#xA448;&#x02F6;&#x0001;&#x0A44;&#x00E0;" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS6" fgColor="000000" bgColor="FFFFFF" fontName="ection" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS7" fgColor="000000" bgColor="FFFFFF" fontName="&#xBA72;&#x13BA;&#x1200;&#x8800;Northrine-Westfalia" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS8" fgColor="000000" bgColor="FFFFFF" fontName="Delimiter" fontStyle="0" nesting="0" />
+        </Styles>
+    </UserLang>
+</NotepadPlus>
