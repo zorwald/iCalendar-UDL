@@ -12,8 +12,8 @@ This means, that keyword highlighting should work for all official iCalendar fil
 I created two versions - one for the default theme, and one for a dark theme [(in my case Dracula)](https://github.com/dracula/notepad-plus-plus). 
 For the **dark theme**, I recommend you switch on *"Enable global background colour"* in *"Global override"* style (Settings **>** Style Configurator)
 
-![Screenshot dark UDL](./screenshot_icalendar_dark.png)
-![Screenshot default UDL](./screenshot_icalendar_default.png)
+![Screenshot dark UDL](./screenshot_iCalendar_dark.png)
+![Screenshot default UDL](./screenshot_iCalendar_default.png)
 
 ## File extensions
 ical ics ifb icalendar
